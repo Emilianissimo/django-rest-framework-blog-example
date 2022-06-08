@@ -23,13 +23,13 @@ Routes for View-sets are generating inside *'drf_test'* project folder's *'urls.
 
 Endpoint map for 127.0.0.1 (standard host + port):
 - 
-- Regular - <a target="_blank" href="http://127.0.0.1:8000/api/func-based/">http://127.0.0.1:8000/api/func-based/
-- Class based - <a target="_blank" href="http://127.0.0.1:8000/api/class-based/">http://127.0.0.1:8000/api/class-based/
-- View sets - <a target="_blank" href="http://127.0.0.1:8000/api/view-sets/">http://127.0.0.1:8000/api/view-sets/
-- Other doesn't have root, <a target="_blank" href="https://youtu.be/XvyLtlcCyNs?t=5">'cause </a>
+- Regular - <a href="http://127.0.0.1:8000/api/func-based/">http://127.0.0.1:8000/api/func-based/
+- Class based - <a href="http://127.0.0.1:8000/api/class-based/">http://127.0.0.1:8000/api/class-based/
+- View sets - <a href="http://127.0.0.1:8000/api/view-sets/">http://127.0.0.1:8000/api/view-sets/
+- Other doesn't have root, <a href="https://youtu.be/XvyLtlcCyNs?t=5" target="_blank">'cause </a>
 - Mixins
 - - Posts - <a target="_blank" href="http://127.0.0.1:8000/api/mixin-based/posts/">http://127.0.0.1:8000/api/mixin-based/posts/
-- - Categories - <a target="_blank" href="http://127.0.0.1:8000/api/mixin-based/categories/">http://127.0.0.1:8000/api/mixin-based/categories/
+- - Categories - <a href="http://127.0.0.1:8000/api/mixin-based/categories/">http://127.0.0.1:8000/api/mixin-based/categories/
 - Generics
-- - Posts - <a target="_blank" href="http://127.0.0.1:8000/api/generic-based/posts/">http://127.0.0.1:8000/api/generic-based/posts/
-- - Categories - <a target="_blank" href="http://127.0.0.1:8000/api/generic-based/categories/">http://127.0.0.1:8000/api/generic-based/categories/
+- - Posts - <a href="http://127.0.0.1:8000/api/generic-based/posts/">http://127.0.0.1:8000/api/generic-based/posts/
+- - Categories - <a href="http://127.0.0.1:8000/api/generic-based/categories/">http://127.0.0.1:8000/api/generic-based/categories/
