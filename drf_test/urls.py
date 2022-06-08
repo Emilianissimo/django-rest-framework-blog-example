@@ -1,4 +1,3 @@
-import news_viewset
 from news_viewset import views
 from django.conf import settings
 from django.contrib import admin

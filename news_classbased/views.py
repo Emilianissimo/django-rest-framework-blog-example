@@ -1,9 +1,21 @@
 from django.http import Http404
+from django.urls import reverse
+
 from news.models import Post, Category
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status, permissions
 from news_viewset.serializers import PostSerializer, CategorySerializer
+
+
+class Root(APIView):
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+
+    def get(self, request):
+        return Response({
+            'posts': request.build_absolute_uri(reverse('class_based.post-list')),
+            'categories': request.build_absolute_uri(reverse('class_based.category-list')),
+        })
 
 
 class PostList(APIView):
